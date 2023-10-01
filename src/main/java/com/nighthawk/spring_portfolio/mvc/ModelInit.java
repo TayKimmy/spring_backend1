@@ -48,6 +48,12 @@ public class ModelInit {
                     noteRepo.save(n);  // JPA Save                  
                 }
             }
+            String[] movieArray = Movie.init();
+            for (String movie : movieArray) {
+                List<Movie> movieFound = movieRepo.findByMovieIgnoreCase(movie);  // JPA lookup
+                if (movieFound.size() == 0)
+                    movieRepo.save(new Movie(null, movie, 0, 0)); //JPA save
+            }
 
         };
     }
