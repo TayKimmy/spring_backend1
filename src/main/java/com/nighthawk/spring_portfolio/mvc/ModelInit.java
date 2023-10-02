@@ -12,6 +12,8 @@ import com.nighthawk.spring_portfolio.mvc.note.Note;
 import com.nighthawk.spring_portfolio.mvc.note.NoteJpaRepository;
 import com.nighthawk.spring_portfolio.mvc.person.Person;
 import com.nighthawk.spring_portfolio.mvc.person.PersonDetailsService;
+import com.nighthawk.spring_portfolio.mvc.movies.Movie;
+import com.nighthawk.spring_portfolio.mvc.movies.MovieJpaRepository.java;
 
 import java.util.List;
 
