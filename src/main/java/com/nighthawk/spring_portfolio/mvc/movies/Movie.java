@@ -1,4 +1,4 @@
-package main.java.com.nighthawk.spring_portfolio.mvc.movies;
+package com.nighthawk.spring_portfolio.mvc.movies;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

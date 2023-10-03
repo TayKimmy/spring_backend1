@@ -1,4 +1,4 @@
-package main.java.com.nighthawk.spring_portfolio.mvc.movies;
+package com.nighthawk.spring_portfolio.mvc.movies;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

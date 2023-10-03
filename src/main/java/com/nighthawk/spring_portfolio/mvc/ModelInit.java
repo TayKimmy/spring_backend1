@@ -13,7 +13,7 @@ import com.nighthawk.spring_portfolio.mvc.note.NoteJpaRepository;
 import com.nighthawk.spring_portfolio.mvc.person.Person;
 import com.nighthawk.spring_portfolio.mvc.person.PersonDetailsService;
 import com.nighthawk.spring_portfolio.mvc.movies.Movie;
-import com.nighthawk.spring_portfolio.mvc.movies.MovieJpaRepository.java;
+import com.nighthawk.spring_portfolio.mvc.movies.MovieJpaRepository;
 
 import java.util.List;
 
@@ -22,6 +22,7 @@ import java.util.List;
 public class ModelInit {  
     @Autowired JokesJpaRepository jokesRepo;
     @Autowired NoteJpaRepository noteRepo;
+    @Autowired MovieJpaRepository movieRepo;
     @Autowired PersonDetailsService personService;
 
     @Bean
